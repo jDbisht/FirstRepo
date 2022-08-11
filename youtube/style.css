@@ -1,0 +1,191 @@
+.grid-container {
+                                        display: grid;
+                                        grid-template-columns: 15%;
+                                        gap: 2px;
+                                        background-color: #ffffff;
+                                        padding: 2px;
+                                       
+
+                                        position: relative;
+}
+
+.grid-container>div {
+                                        background-color: rgb(255, 255, 255);
+                                        text-align: center;
+                                        padding: 10px 0;
+                                        font-size: 30px;
+                                        
+                                        left: 60px;
+                                        
+                                       
+                                        
+}
+
+.item1 {
+                                        grid-column-start: 1;
+                                        grid-column-end: 4;
+                                       border-bottom-style:inset;
+                                        height: 70px;
+                                        width: 100%;
+                                        
+}
+
+.item1  {
+                                        float: center;
+                                        box-sizing: border-box;
+                                        justify-content: start;
+                                       
+} 
+
+.item1 input[type=text] {
+                                        padding: 5px;
+                                        padding-bottom: 5px;
+                                        margin-top: 1px;
+                                        margin-bottom: 1px;
+                                        font-size: 15px;
+                                        border-radius: 1px solid black;
+                                        width: 40%;
+                                      
+
+}
+
+.item1 .grid-container button {
+                                        float: right;
+                                        padding: 60px 10px;
+                                        margin-top: 8px;
+                                        margin-right: 16px;
+                                        background: #ddd;
+                                        font-size: 60px;
+                                        border: none;
+                                        cursor: pointer;
+                                        
+}
+button{
+                                        font-size: 20px;
+}
+
+.item1 .grid-container button:hover {
+                                        background: #ccc;
+}
+.item1 img{
+                                        width: 140px;
+                                        float: left;
+}
+.grid-container1 {
+                                        display: grid;
+                                        grid-template-columns: 15%;
+                                        gap: 2px;
+                                        background-color: #ffffff;
+                                        padding: 2px;
+                                        
+                                     
+}
+
+.grid-container1>div {
+                                        background-color: rgb(255, 255, 255);
+                                        text-align: center;
+                                        padding: 10px 0;
+                                        font-size: 30px;
+                                        position: relative;
+                                       left: 60px; 
+}
+.item2 {
+                                        grid-column-start: 1;
+                                        grid-column-end: 4;
+                                        border-bottom-style: inset;
+                                        height: 35px;
+}
+.item2 button{
+ float: left;
+background-color: rgb(234, 234, 234);
+border-radius:35%;
+color: rgb(0, 0, 0);
+padding: 10px;
+text-align: center;
+text-decoration: none;
+border: none;
+font-size: 16px;
+margin: 1px 10px;
+cursor: pointer;
+}
+.grid-container3 {
+display: grid;
+grid-template-columns: auto auto auto auto;
+gap: 20px;
+background-color: #120d0d;
+padding: 2px;
+}
+.grid-container3>div {
+                                        background-color: rgb(255, 255, 255);
+                                        text-align: center;
+                                        padding: 10px 0;
+                                        font-size: 30px;
+}
+.item3{
+
+                                                                                grid-column-start: 1;
+                                                                                grid-column-end: 4;
+                                                                                border-bottom-style: inset;
+                                                                                height: 35px;
+                                        }
+.flex-container {
+                                        display: flex;
+                                        background-color: rgb(233, 233, 233);
+                                        left: 60px;
+                                        
+}
+
+.flex-container>div {
+                                        background-color: #f1f1f1;
+                                        margin: 10px;
+                                        padding: 80px;
+                                        width: 60%;
+                                       
+}
+.flex-container1 {
+                                        display: flex;
+                                        background-color: rgb(233, 233, 233);
+                                        
+
+}
+
+.flex-container1>div {
+                                        background-color: #f1f1f1;
+                                        margin: 10px;
+                                        padding: 80px;
+                                        width: 60%;
+                                        
+
+}
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+                                        .flex-container {
+                                                                                flex-direction: column;
+                                        }
+}
+.flex-container2 {
+                                        display: flex;
+                                        background-color: rgb(233, 233, 233);
+
+}
+
+.flex-container2>div {
+                                        background-color: #f1f1f1;
+                                        margin: 10px;
+                                        padding: 80px;
+                                        width: 60%;
+
+}
+.flex-container3 {
+                                        display: flex;
+                                        background-color: rgb(233, 233, 233);
+
+}
+
+.flex-container3>div {
+                                        background-color: #f1f1f1;
+                                        margin: 10px;
+                                        padding: 80px;
+                                        width: 60%;
+
+}
